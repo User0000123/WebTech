@@ -48,7 +48,7 @@ public class Book implements Comparable<Book>{
     }
 
     public int getIsbn(){
-        return this.getIsbn();
+        return this.isbn;
     }
 
     @Override

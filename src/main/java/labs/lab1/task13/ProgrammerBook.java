@@ -1,6 +1,6 @@
 package labs.lab1.task13;
 
-import labs.lab1.task15.Book;
+import labs.lab1.task12.Book;
 
 import java.util.Objects;
 

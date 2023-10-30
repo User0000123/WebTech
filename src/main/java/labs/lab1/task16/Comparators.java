@@ -15,7 +15,7 @@ public class Comparators {
     }
 
     public static Comparator<Book> getComparatorByAuthorTitle(){
-        return getComparatorByTitleAuthor().reversed();
+        return new ComparatorByAuthor().thenComparing(new ComparatorByTitle());
     }
 
     public static Comparator<Book> getComparatorByAuthorTitlePrice(){

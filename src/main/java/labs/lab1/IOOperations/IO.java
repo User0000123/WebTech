@@ -1,5 +1,7 @@
 package labs.lab1.IOOperations;
 
+import labs.lab1.task3.Solution;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.InputMismatchException;

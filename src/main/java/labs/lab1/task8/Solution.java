@@ -36,6 +36,6 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        System.out.println(getIndexesToInsert(new double[]{0, 1, 2, 3, 4}, new double[]{-1, 3, 4, 5, 6 , 7, 8}));
+        System.out.println(getIndexesToInsert(new double[]{0, 1, 2, 3, 4}, new double[]{-1, 3, 4, 5, 6, 7, 8}));
     }
 }

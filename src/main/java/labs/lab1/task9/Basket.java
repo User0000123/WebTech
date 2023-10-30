@@ -20,6 +20,14 @@ public class Basket {
         balls.addAll(Arrays.asList(ballsToAdd));
     }
 
+    public void addBall(Ball ball){
+        balls.add(ball);
+    }
+
+    public void deleteBall(int index){
+        balls.remove(index);
+    }
+
     public void fillTheBasket(int ballsCount){
         for (int i = 0; i < ballsCount; i++){
             balls.add(new Ball(Color.getRandomColor(), ThreadLocalRandom.current().nextDouble(MAX_BALL_WEIGHT)));

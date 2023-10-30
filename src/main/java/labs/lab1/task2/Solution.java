@@ -21,7 +21,7 @@ public class Solution {
         }
     }
 
-    private static void initializeRectangles(){
+    public static void initializeRectangles(){
         rectangles = new ArrayList<>();
 
         rectangles.add(new Rectangle(-4, 5, 4, 0));
